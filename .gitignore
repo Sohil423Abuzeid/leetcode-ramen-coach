@@ -1,0 +1,98 @@
+# ===============================
+# .NET / ASP.NET Core
+# ===============================
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ===============================
+# Visual Studio
+# ===============================
+.vs/
+.vscode/
+.idea/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa]ny [Cc]PU/
+
+# ===============================
+# Logs
+# ===============================
+*.log
+logs/
+LogFiles/
+
+# ===============================
+# Secrets & Environment
+# ===============================
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Staging.json
+secrets.json
+.env
+.env.*
+
+# ===============================
+# EF Core
+# ===============================
+Migrations/*.Designer.cs
+Migrations/*.resx
+
+# ===============================
+# SQL / Database
+# ===============================
+*.mdf
+*.ldf
+
+# ===============================
+# Hangfire
+# ===============================
+hangfire.db
+
+# ===============================
+# OS files
+# ===============================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ===============================
+# macOS
+# ===============================
+.DS_Store
+
+# ===============================
+# Rider
+# ===============================
+.idea/
+
+# ===============================
+# Node / Frontend (if exists)
+# ===============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===============================
+# Test results
+# ===============================
+TestResults/
+coverage/
+*.trx
+
+# ===============================
+# Publish output
+# ===============================
+publish/

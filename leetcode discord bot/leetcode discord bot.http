@@ -1,0 +1,6 @@
+@leetcode_discord_bot_HostAddress = http://localhost:5111
+
+GET {{leetcode_discord_bot_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
